@@ -5,7 +5,7 @@
   "repository": "git@github.com:super8989/Todo-MERN.git",
   "author": "Sam <super8989@gmail.com>",
   "license": "MIT",
-   "scripts": {
+  "scripts": {
     "build": "tsc",
     "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
   },
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
     "typescript": "^4.0.3"
   },
   "devDependencies": {
